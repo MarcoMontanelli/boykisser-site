@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Livello_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1069 984.7">
+  <!-- Generator: Adobe Illustrator 29.3.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 146)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fff;
+      }
+
+      .st1 {
+        fill: blue;
+      }
+
+      .st2 {
+        stroke-width: 8px;
+      }
+
+      .st2, .st3, .st4, .st5 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .st2, .st4, .st5 {
+        stroke: #000;
+      }
+
+      .st6 {
+        fill: #4d9046;
+      }
+
+      .st3 {
+        stroke: #fff;
+        stroke-width: 12px;
+      }
+
+      .st7 {
+        fill: #848584;
+      }
+
+      .st8 {
+        fill: #dfdfdf;
+      }
+
+      .st4 {
+        stroke-width: 10px;
+      }
+
+      .st9 {
+        fill: #c6c6c6;
+      }
+
+      .st10 {
+        fill: #0a0a0a;
+      }
+
+      .st11 {
+        fill: #fefefe;
+      }
+
+      .st5 {
+        stroke-width: 9px;
+      }
+
+      .st12 {
+        fill: #07ff00;
+      }
+    </style>
+  </defs>
+  <g id="Stand">
+    <line class="st2" x1="738" y1="904" x2="738" y2="950"/>
+    <line class="st3" x1="320" y1="904" x2="320" y2="950"/>
+    <rect class="st7" x="326" y="906" width="408" height="48"/>
+    <rect class="st7" x="276" y="850" width="511" height="49"/>
+    <rect class="st9" x="336" y="919" width="389" height="23"/>
+    <rect class="st9" x="284" y="863" width="491" height="26"/>
+    <rect class="st9" x="157" y="963" width="755" height="11"/>
+    <line class="st4" x1="265" y1="904" x2="794" y2="904"/>
+    <polygon class="st0" points="265 909 265 850 276 850 276 899 265 909"/>
+    <line class="st5" x1="790" y1="904" x2="790" y2="849"/>
+    <rect class="st7" x="137" y="942" width="787" height="34"/>
+    <line class="st2" x1="928" y1="980" x2="928" y2="942"/>
+    <rect class="st0" x="148" y="952" width="765" height="22"/>
+    <rect class="st9" x="157" y="962" width="756" height="12"/>
+    <line class="st2" x1="137" y1="978" x2="932" y2="978"/>
+  </g>
+  <g id="Frame">
+    <rect class="st10" x="1" y="2" width="1068" height="851"/>
+    <polyline class="st7" points="1059 0 1059 842 0 842"/>
+    <polyline class="st0" points="0 842 0 0 1059 0"/>
+    <rect class="st9" x="29" y="23" width="1001" height="796"/>
+    <rect class="st12" x="917" y="791" width="56" height="10"/>
+    <rect class="st6" x="917" y="781" width="56" height="10"/>
+    <polyline class="st11" points="972.5 88.5 972.5 756.5 87.5 756.5"/>
+    <polyline class="st7" points="87.5 756.5 87.5 88.5 972.5 88.5"/>
+  </g>
+  <g id="Screen">
+    <polyline class="st8" points="961 97 961 747 100 747"/>
+    <polyline class="st10" points="100 747 100 97 961 97"/>
+    <polygon class="st1" points="945 732 119 733 119 110 945 109 945 732"/>
+  </g>
+</svg>
