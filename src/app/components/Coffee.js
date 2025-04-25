@@ -48,7 +48,7 @@ const AboutCreator = () => {
             </div>
           </div>
           <div className="p-2" >
-          <Image src="/icon.png" alt="Creator" width={200} height={200} className="border-2 rounded-full border-gray-500 mx-auto object-cover aspect-square" />
+          <Image src="/icon.png" alt="Creator" width={200} height={200} className=" mx-auto object-cover aspect-square" />
           <Image src="/zyroT.png" alt="About Title" width={200} height={50} className="mx-auto object-contain mb-4" />
 
           <p className="text-base text-center md:text-left">
