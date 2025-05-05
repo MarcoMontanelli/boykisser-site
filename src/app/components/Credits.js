@@ -82,8 +82,8 @@ export default function CreditsWindow() {
           <marquee className="text-sm bg-white p-2 border-2 border-gray-400 mt-4">Built with passion, code, and caffeine. Thank you for visiting!</marquee>
 
           <div className="status-bar mt-2">
-            <div className="status-bar-field">© 2025 ZyroFox</div>
-            <div className="status-bar-field">All Rights Reserved</div>
+            <div className="status-bar-field">2025 ZyroFox</div>
+            <div className="status-bar-field">Credits</div>
             <div className="status-bar-field">Built with ❤️</div>
           </div>
         </div>

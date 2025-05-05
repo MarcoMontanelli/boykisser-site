@@ -79,7 +79,7 @@ const ParallaxSection = () => {
             exit={{ opacity: 0 }}
           >
             <motion.div
-              className="window p-4 max-w-2xl mx-auto"
+              className="window p-4 w-full max-w-7xl mx-auto"
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0.9 }}

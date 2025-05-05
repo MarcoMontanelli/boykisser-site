@@ -162,7 +162,7 @@ const AboutSection = () => {
           <legend className="text-sm font-pixel  px-2">Actions</legend>
           <div className="flex gap-2 justify-center">
             <motion.button onClick={() => window.location.href = 'https://knowyourmeme.com/memes/oooooo-you-like-boys-ur-a-boykisser'} className="button px-4 py-2 hover:scale-105 transition-transform">Discover More</motion.button>
-            <motion.button onClick={() => window.location.href = 'https://www.reddit.com/r/boykisser/'} className="button px-4 py-2 hover:scale-105 transition-transform">Join the Fun</motion.button>
+            <motion.button onClick={() => window.location.href = 'https://www.reddit.com/r/Boykisser3/'} className="button px-4 py-2 hover:scale-105 transition-transform">Join the Fun</motion.button>
             <motion.button onClick={() => setShowFaq(true)} className="button px-4 py-2 hover:scale-105 transition-transform">FAQ</motion.button>
           </div>
         </fieldset>

@@ -57,7 +57,7 @@ const AboutCreator = () => {
           <p className="text-sm text-center md:text-left">
             From late-night coding sessions to curating the best memes, I aim to bring smiles to everyone who visits my site.
           </p>
-          <button onClick={() => window.location.href = 'https://zyro-fox.vercel.app'} 
+          <button onClick={() => window.location.href = 'https://zyrofoxx.com'} 
             className="button hover:bg-pink-500 hover:text-white transition-all hover:shadow-pink-500/50 my-2 hover:scale-105 w-full py-3 mx-auto">
             Learn More
           </button>

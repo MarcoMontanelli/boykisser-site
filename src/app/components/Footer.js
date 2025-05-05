@@ -33,10 +33,10 @@ const Footer = () => {
                     <Image src="/start.png" alt="Start" width={56} height={20} className="object-contain w-full h-full" />
                 </button>
                 <div className="flex items-center gap-4">
-                    <a href="https://zyro-fox.vercel.app" target="_blank" rel="noopener noreferrer">
+                    <a href="https://zyrofoxx.com" target="_blank" rel="noopener noreferrer">
                         <Image src="/icon.png" alt="Site Icon" width={20} height={20} className="object-contain" />
                     </a>
-                    <span className="text-sm font-mono">{time}</span>
+                    <span className="text-sm text-gray-300">{time}</span>
                 </div>
             </div>
 
@@ -57,22 +57,20 @@ const Footer = () => {
               className="w-6 h-90 object-cover"
             />
             <div className="window-body flex flex-col gap-2 p-2 text-xs md:text-sm">
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="button flex items-center gap-2">
-                <FaTwitter /> Twitter
-              </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="button flex items-center gap-2">
+              
+              <a href="https://www.instagram.com/zyro_fox24/" target="_blank" rel="noopener noreferrer" className="button flex items-center gap-2">
                 <FaInstagram /> Instagram
               </a>
-              <a href="https://discord.com" target="_blank" rel="noopener noreferrer" className="button flex items-center gap-2">
+              <a href="https://discord.gg/kV4TEmqHUg" target="_blank" rel="noopener noreferrer" className="button flex items-center gap-2">
                 <FaDiscord /> Discord
               </a>
-              <a href="https://reddit.com" target="_blank" rel="noopener noreferrer" className="button flex items-center gap-2">
+              <a href="https://www.reddit.com/user/madonna-aramiaca/" target="_blank" rel="noopener noreferrer" className="button flex items-center gap-2">
                 <FaReddit /> Reddit
               </a>
-              <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" className="button flex items-center gap-2">
+              <a href="https://www.youtube.com/@ZyroFox24/videos" target="_blank" rel="noopener noreferrer" className="button flex items-center gap-2">
                 <FaYoutube /> YouTube
               </a>
-              <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" className="button flex items-center gap-2">
+              <a href="https://www.tiktok.com/@zyro_fox24" target="_blank" rel="noopener noreferrer" className="button flex items-center gap-2">
                 <FaTiktok /> TikTok
               </a>
             </div>
