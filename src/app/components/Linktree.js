@@ -11,9 +11,9 @@ const tabs = [
     color: 'bg-pink-500',
     image: '/back6.gif',
     links: [
-      { icon: <FaMusic />, label: 'Spotify', url: 'https://spotify.com' },
-      { icon: <FaMusic />, label: 'SoundCloud', url: 'https://soundcloud.com' },
-      { icon: <FaMusic />, label: 'Bandcamp', url: 'https://bandcamp.com' },
+      { icon: <FaMusic />, label: 'Studi01', url: 'https://www.youtube.com/watch?v=Ie57fr8pCko&pp=ygUOYm95a2lzc2VyIHNvbmc%3D' },
+      { icon: <FaMusic />, label: 'dewperland', url: 'https://www.youtube.com/watch?v=XPuByyASa_M' },
+      { icon: <FaMusic />, label: 'Uhh', url: 'https://www.youtube.com/watch?v=Q5-bhcPRlg8' },
     ],
   },
   {
@@ -21,9 +21,9 @@ const tabs = [
     color: 'bg-blue-500',
     image: '/back13gif.gif',
     links: [
-      { icon: <FaPalette />, label: 'DeviantArt', url: 'https://deviantart.com' },
-      { icon: <FaPalette />, label: 'Pixiv', url: 'https://pixiv.net' },
-      { icon: <FaPalette />, label: 'Instagram', url: 'https://instagram.com' },
+      { icon: <FaPalette />, label: 'Place', url: 'https://pixelplace.io/93437-in-memory-of-r-boykisser' },
+      { icon: <FaPalette />, label: 'DeviantArt', url: 'https://www.deviantart.com/search?q=boykisser' },
+      { icon: <FaPalette />, label: 'FurAffinity', url: 'https://www.furaffinity.net/search/?q=boykisser' },
     ],
   },
   {
@@ -31,9 +31,9 @@ const tabs = [
     color: 'bg-green-500',
     image: '/back15.png',
     links: [
-      { icon: <FaGamepad />, label: 'Itch.io', url: 'https://itch.io' },
-      { icon: <FaGamepad />, label: 'Steam', url: 'https://store.steampowered.com' },
-      { icon: <FaGamepad />, label: 'Projects', url: '/projects' },
+      { icon: <FaGamepad />, label: 'Quiz', url: 'https://boykisser.zyrofoxx.com' },
+      { icon: <FaGamepad />, label: 'Itch.io', url: 'https://itch.io/games/tag-boykisser' },
+      { icon: <FaGamepad />, label: 'Escape the boykisser', url: 'https://store.steampowered.com/app/2708280/ESCAPE_FROM_BOYKISSER/' },
     ],
   },
   {
@@ -41,9 +41,9 @@ const tabs = [
     color: 'bg-purple-500',
     image: '/back14.png',
     links: [
-      { icon: <FaUsers />, label: 'Twitter', url: 'https://twitter.com' },
-      { icon: <FaUsers />, label: 'Discord', url: 'https://discord.com' },
-      { icon: <FaUsers />, label: 'Reddit', url: 'https://reddit.com' },
+      { icon: <FaUsers />, label: 'Reddit memes', url: 'https://www.reddit.com/r/boykissermemes/' },
+      { icon: <FaUsers />, label: 'Boykisser discord', url: 'https://discord.com/invite/78jWNpdfsz' },
+      { icon: <FaUsers />, label: 'Reddit', url: 'https://www.reddit.com/r/Boykisser3/' },
     ],
   },
 ];
@@ -66,7 +66,7 @@ export default function LinktreeWindow() {
   return (
     <div className="fixed inset-0 flex items-center justify-center p-4 ">
       <motion.div
-        className="window w-full md:max-w-5xl mx-auto"
+        className="window w-full max-w-7xl mx-auto"
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8 }}
@@ -242,7 +242,7 @@ export default function LinktreeWindow() {
         {/* Status Bar */}
         <div className="status-bar mt-2">
           <div className="status-bar-field">{statusText}</div>
-          <div className="status-bar-field">© 2025 ZyroFox</div>
+          <div className="status-bar-field"> 2025 ZyroFox</div>
           <div className="status-bar-field">Powered by nostalgia</div>
         </div>
       </motion.div>

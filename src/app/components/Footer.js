@@ -29,8 +29,8 @@ const Footer = () => {
             style={{ background: 'linear-gradient(90deg, #ff69b4, #ff1493)' }}
         >
             <div className="flex justify-between items-center p-1 h-full">
-                <button className="p-0 h-full w-14 md:w-16" onClick={() => setShowMenu(!showMenu)}>
-                    <Image src="/start.png" alt="Start" width={56} height={20} className="object-contain w-full h-full" />
+                <button className="p-0 h-full w-14 md:w-16 bg-gray-300 button" onClick={() => setShowMenu(!showMenu)}>
+                    <Image src="/start.png" alt="Start" width={56} height={20} className="object-contain w-full h-full " />
                 </button>
                 <div className="flex items-center gap-4">
                     <a href="https://zyrofoxx.com" target="_blank" rel="noopener noreferrer">

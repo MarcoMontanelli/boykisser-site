@@ -57,14 +57,14 @@ const ParallaxSection = () => {
         </p>
 
 
-        <button className="button text-lg px-6 py-3 hover:scale-110 transition-transform font-pixel" onClick={() => window.location.href = 'https://knowyourmeme.com/memes/oooooo-you-like-boys-ur-a-boykisser'}>
+        <button className="bg-gray-300 button text-lg px-6 py-3 hover:scale-110 transition-transform font-pixel" onClick={() => window.location.href = 'https://knowyourmeme.com/memes/oooooo-you-like-boys-ur-a-boykisser'}>
           Explore
         </button>
       </div>
 
       {/* Expand button in bottom-right corner */}
       <button
-        className="absolute bottom-4 right-4 button flex justify-center items-center px-3 py-1 hover:scale-110 transition-transform z-10 font-pixel"
+        className="absolute bottom-4 right-4 bg-gray-300 button flex justify-center items-center px-3 py-1 hover:scale-110 transition-transform z-10 font-pixel"
         onClick={openModal}
       >
         Expand

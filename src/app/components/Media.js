@@ -158,7 +158,7 @@ export default function MediaExplorer() {
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
             >
-                <div className="window p-4 w-full max-w-4xl mx-auto">
+                <div className="window p-4 w-full max-w-7xl mx-auto">
                     <div className="title-bar" style={{ background: 'linear-gradient(90deg, #ff69b4, #ff1493)' }}>
                         <div className="title-bar-text">{selectedMedia.filename}</div>
                         <div className="title-bar-controls">
