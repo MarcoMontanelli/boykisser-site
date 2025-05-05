@@ -26,7 +26,8 @@ export default function CreditsWindow() {
   ];
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center p-4 bg-[url('/images/wallpaper.png')] bg-repeat">
+    <div className="min-h-screen w-full flex justify-center items-start sm:items-center p-4  overflow-y-auto">
+
       <motion.div className={`window w-full md:max-w-3xl mx-auto ${pixelFont.variable}`} initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8 }}>
         <div className="title-bar" style={{ background: 'linear-gradient(90deg, #ff69b4, #ff1493)' }}>
           <div className="title-bar-text text-xl font-bold">Credits</div>

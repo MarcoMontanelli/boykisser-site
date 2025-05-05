@@ -64,9 +64,10 @@ export default function LinktreeWindow() {
   }, [activeTab]);
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center p-4 ">
+    <div className="min-h-screen w-full flex justify-center items-start sm:items-center p-4  overflow-y-auto">
+
       <motion.div
-        className="window w-full max-w-7xl mx-auto"
+        className="window w-full max-w-5xl mx-auto"
         initial={{ opacity: 0, scale: 0.9 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.8 }}
