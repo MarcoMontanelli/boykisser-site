@@ -75,7 +75,7 @@ export default function Games() {
               <p className="text-xs text-gray-700 mb-2">
                 A rapid-fire mini-quiz playground for true memelords.
               </p>
-              <Link href="https://boykisser-quiz.vercel.app">
+              <Link href="https://boykisser.zyrofoxx.com">
                 <button className="button text-sm">Play!</button>
               </Link>
             </div>
